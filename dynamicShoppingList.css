@@ -1,6 +1,11 @@
 * {
     background-color:beige;
 }
+h1{
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+}
 
 
 li {
@@ -11,4 +16,10 @@ li button {
         font-size: 15px;
         margin-left: 20px;
         color: #666;
+}
+
+
+#countainer{
+    display: flex;
+    justify-content: center;
 }

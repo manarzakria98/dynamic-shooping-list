@@ -3,21 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dynamic Shopping List.css">
+    <link rel="stylesheet" href="./dynamicShoppingList.css">
     <title>Shopping list example</title>
   </head>
   <body>
 
-        <h1>My shopping list</h1>
-
+    <h1>My shopping list</h1>
+    
+    <div id="countainer">
+     
       <div id="div">
           <label for="item">Enter a new item:</label>
-          <input type="text" required id="item" name="name">
-          <button onclick="myListItem()">Add item</button>
-      </div>
+          <input type="text" required id="item" name="item">
+          <button>Add item</button>
+      
         <ul>
 
         </ul>
-        <script src="dynamic Shopping List.js"></script>
+      </div>
+        <script src="./dynamicShoppingList.js"></script>
+    </div>
   </body>
 </html>    
